@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1200">
+<title>Voron Build Cost 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#0D0F12}
+a{color:#A3ACB8}a:hover{color:#ECEEF1}
+</style>
+</head>
+<body>
+<div style="width: 1200px; height: 2760px; box-sizing: border-box; padding: 72px 80px 64px; display: flex; flex-direction: column; gap: 64px; background: #0D0F12; color: #ECEEF1; font-family: Inter, system-ui, sans-serif;">
+
+<header style="display: flex; flex-direction: column; gap: 20px;">
+<div style="display: flex; justify-content: space-between; align-items: center; font-family: 'JetBrains Mono', monospace; font-size: 14px; letter-spacing: 0.14em; text-transform: uppercase; color: #8C96A3;">
+<span>DIY CoreXY field guide</span>
+<span>Prices as of Oct 23, 2026</span>
+</div>
+<div style="height: 1px; background: #262B33;"></div>
+<h1 style="margin: 8px 0 0; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 84px; line-height: 0.98; letter-spacing: -0.03em; max-width: 960px;">The 2026 Voron build, <span style="color: #FF7A3D;">priced out.</span></h1>
+<p style="margin: 0; font-size: 22px; line-height: 1.5; color: #A3ACB8; max-width: 820px;">What the newest Voron really costs to build, what else is worth a look, and which one to buy if you want speed, engineering materials and quality.</p>
+</header>
+
+<section style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 48px; align-items: center;">
+<div style="position: relative; background: radial-gradient(ellipse at 50% 70%, #1A1410 0%, #0D0F12 70%); border: 1px solid #1E2228; border-radius: 28px; padding: 24px 12px 8px;">
+<svg viewBox="0 0 560 640" width="100%" role="img" aria-label="Illustration of an enclosed CoreXY 3D printer with a glowing heated bed and printed parts inside">
+<defs>
+<linearGradient id="ext" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3A414B"></stop><stop offset="0.5" stop-color="#1B1F25"></stop><stop offset="1" stop-color="#30353E"></stop></linearGradient>
+<linearGradient id="extH" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3A414B"></stop><stop offset="0.5" stop-color="#1B1F25"></stop><stop offset="1" stop-color="#2C3139"></stop></linearGradient>
+<linearGradient id="chamber" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#14181D"></stop><stop offset="0.65" stop-color="#0E1115"></stop><stop offset="1" stop-color="#2B170D"></stop></linearGradient>
+<linearGradient id="led" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFF4E0" stop-opacity="0.5"></stop><stop offset="1" stop-color="#FFF4E0" stop-opacity="0"></stop></linearGradient>
+<linearGradient id="glare" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"></stop><stop offset="0.45" stop-color="#FFFFFF" stop-opacity="0.11"></stop><stop offset="0.55" stop-color="#FFFFFF" stop-opacity="0.03"></stop><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"></stop></linearGradient>
+<linearGradient id="rail" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#EEF1F5"></stop><stop offset="0.5" stop-color="#8E97A3"></stop><stop offset="1" stop-color="#C9CFD6"></stop></linearGradient>
+<linearGradient id="pei" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7E5A20"></stop><stop offset="0.5" stop-color="#D1A04A"></stop><stop offset="1" stop-color="#7E5A20"></stop></linearGradient>
+<linearGradient id="head" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3E4550"></stop><stop offset="1" stop-color="#15181D"></stop></linearGradient>
+<linearGradient id="part" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#40454D"></stop><stop offset="1" stop-color="#181A1E"></stop></linearGradient>
+<radialGradient id="bedglow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#FF7A3D" stop-opacity="0.42"></stop><stop offset="1" stop-color="#FF7A3D" stop-opacity="0"></stop></radialGradient>
+<radialGradient id="floor" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#000000" stop-opacity="0.75"></stop><stop offset="1" stop-color="#000000" stop-opacity="0"></stop></radialGradient>
+<radialGradient id="nozzle" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#FFE2A8"></stop><stop offset="0.35" stop-color="#FF7A3D" stop-opacity="0.85"></stop><stop offset="1" stop-color="#FF7A3D" stop-opacity="0"></stop></radialGradient>
+<radialGradient id="screen" cx="0.5" cy="0.5" r="0.6"><stop offset="0" stop-color="#6CCBFF" stop-opacity="0.55"></stop><stop offset="1" stop-color="#6CCBFF" stop-opacity="0.12"></stop></radialGradient>
+<pattern id="vent" width="12" height="34" patternUnits="userSpaceOnUse"><rect x="3" y="0" width="5" height="34" rx="2" fill="#07090B"></rect></pattern>
+</defs>
+
+<ellipse cx="290" cy="612" rx="260" ry="20" fill="url(#floor)"></ellipse>
+
+<polygon points="480,80 500,94 500,566 480,580" fill="#101317"></polygon>
+<polygon points="480,72 500,86 500,94 480,80" fill="#1A1E24"></polygon>
+
+<polygon points="104,36 456,36 480,72 80,72" fill="#191D23" stroke="#2E343D" stroke-width="1.5"></polygon>
+<polygon points="122,40 228,40 206,68 98,68" fill="#FFFFFF" fill-opacity="0.05"></polygon>
+<rect x="80" y="72" width="400" height="8" fill="url(#extH)"></rect>
+
+<rect x="102" y="102" width="356" height="386" fill="url(#chamber)"></rect>
+<rect x="138" y="122" width="284" height="346" fill="none" stroke="#232830" stroke-width="7"></rect>
+<line x1="102" y1="102" x2="138" y2="122" stroke="#232830" stroke-width="5"></line>
+<line x1="458" y1="102" x2="422" y2="122" stroke="#232830" stroke-width="5"></line>
+<line x1="102" y1="488" x2="138" y2="468" stroke="#232830" stroke-width="5"></line>
+<line x1="458" y1="488" x2="422" y2="468" stroke="#232830" stroke-width="5"></line>
+
+<rect x="104" y="104" width="352" height="3" fill="#FFF4E0"></rect>
+<rect x="104" y="107" width="352" height="140" fill="url(#led)" opacity="0.4"></rect>
+
+<line x1="166" y1="124" x2="166" y2="466" stroke="#AEB6C0" stroke-width="3" opacity="0.55"></line>
+<line x1="166" y1="124" x2="166" y2="466" stroke="#4A525D" stroke-width="3" stroke-dasharray="2 2" opacity="0.8"></line>
+<line x1="394" y1="124" x2="394" y2="466" stroke="#AEB6C0" stroke-width="3" opacity="0.55"></line>
+<line x1="394" y1="124" x2="394" y2="466" stroke="#4A525D" stroke-width="3" stroke-dasharray="2 2" opacity="0.8"></line>
+<line x1="280" y1="124" x2="280" y2="410" stroke="#AEB6C0" stroke-width="3" opacity="0.4"></line>
+
+<ellipse cx="280" cy="428" rx="210" ry="56" fill="url(#bedglow)"></ellipse>
+<rect x="150" y="452" width="260" height="8" fill="#262B33"></rect>
+<polygon points="150,418 410,418 434,440 126,440" fill="url(#pei)"></polygon>
+<polygon points="150,418 410,418 412,420 148,420" fill="#FFFFFF" fill-opacity="0.18"></polygon>
+<rect x="126" y="440" width="308" height="11" fill="#1C2026"></rect>
+
+<polygon points="236,428 300,428 300,410 268,410 268,390 236,390" fill="url(#part)"></polygon>
+<polygon points="236,390 268,390 276,384 244,384" fill="#565C66"></polygon>
+<polygon points="268,410 300,410 308,404 276,404" fill="#565C66"></polygon>
+<polygon points="300,428 308,422 308,404 300,410" fill="#101215"></polygon>
+<polygon points="268,410 276,404 276,384 268,390" fill="#101215"></polygon>
+<ellipse cx="252" cy="406" rx="5.5" ry="5.5" fill="#07090B"></ellipse>
+<ellipse cx="284" cy="420" rx="4" ry="4" fill="#07090B"></ellipse>
+<rect x="330" y="414" width="28" height="14" fill="#FF7A3D"></rect>
+<polygon points="330,414 358,414 364,409 336,409" fill="#FF7A3D"></polygon>
+<polygon points="330,414 358,414 364,409 336,409" fill="#FFFFFF" fill-opacity="0.3"></polygon>
+<polygon points="358,428 364,423 364,409 358,414" fill="#FF7A3D"></polygon>
+<polygon points="358,428 364,423 364,409 358,414" fill="#000000" fill-opacity="0.35"></polygon>
+
+<polygon points="108,214 140,190 140,197 108,222" fill="url(#rail)" opacity="0.85"></polygon>
+<polygon points="452,214 420,190 420,197 452,222" fill="url(#rail)" opacity="0.85"></polygon>
+<polyline points="124,206 108,112" fill="none" stroke="#07090B" stroke-width="3"></polyline>
+<polyline points="436,206 452,112" fill="none" stroke="#07090B" stroke-width="3"></polyline>
+<rect x="122" y="199" width="316" height="16" rx="2" fill="url(#extH)"></rect>
+<rect x="126" y="194" width="308" height="5" rx="1" fill="url(#rail)"></rect>
+
+<path d="M 306 168 C 326 132, 360 120, 392 104" fill="none" stroke="#07090B" stroke-width="6" stroke-linecap="round"></path>
+<rect x="238" y="166" width="84" height="98" rx="16" fill="url(#head)" stroke="#434A55" stroke-width="1.5"></rect>
+<rect x="246" y="174" width="68" height="62" rx="12" fill="#FF7A3D"></rect>
+<rect x="246" y="174" width="68" height="20" rx="10" fill="#FFFFFF" fill-opacity="0.18"></rect>
+<circle cx="280" cy="206" r="21" fill="#0B0D10" stroke="#1F2329" stroke-width="2"></circle>
+<path d="M280 206 L280 189 Q290 192 287 201 Z" fill="#2A2F37"></path>
+<path d="M280 206 L296 211 Q291 220 283 216 Z" fill="#2A2F37"></path>
+<path d="M280 206 L270 220 Q264 212 270 205 Z" fill="#2A2F37"></path>
+<path d="M280 206 L264 199 Q268 190 276 193 Z" fill="#2A2F37"></path>
+<circle cx="280" cy="206" r="5" fill="#3A404A"></circle>
+<polygon points="250,238 310,238 300,262 260,262" fill="#1B1F25"></polygon>
+<rect x="272" y="262" width="16" height="10" rx="1" fill="#9AA3AE"></rect>
+<polygon points="276,272 284,272 281.5,280 278.5,280" fill="#C9A14A"></polygon>
+<circle cx="280" cy="282" r="14" fill="url(#nozzle)"></circle>
+
+<rect x="102" y="102" width="356" height="386" fill="#FFFFFF" fill-opacity="0.025" stroke="#FFFFFF" stroke-opacity="0.07"></rect>
+<polygon points="102,300 262,102 334,102 102,392" fill="url(#glare)"></polygon>
+<polygon points="384,488 458,394 458,426 410,488" fill="#FFFFFF" fill-opacity="0.04"></polygon>
+<line x1="280" y1="102" x2="280" y2="488" stroke="#FFFFFF" stroke-opacity="0.06" stroke-width="1.5"></line>
+<rect x="266" y="276" width="4" height="58" rx="2" fill="#3A404A"></rect>
+<rect x="290" y="276" width="4" height="58" rx="2" fill="#3A404A"></rect>
+
+<rect x="80" y="80" width="22" height="430" fill="url(#ext)"></rect>
+<rect x="458" y="80" width="22" height="430" fill="url(#ext)"></rect>
+<rect x="80" y="80" width="400" height="22" fill="url(#extH)"></rect>
+<rect x="80" y="488" width="400" height="22" fill="url(#extH)"></rect>
+<line x1="91" y1="84" x2="91" y2="506" stroke="#0A0C0F" stroke-width="1.5" opacity="0.7"></line>
+<line x1="469" y1="84" x2="469" y2="506" stroke="#0A0C0F" stroke-width="1.5" opacity="0.7"></line>
+
+<rect x="80" y="510" width="400" height="70" fill="#14171B" stroke="#262B33" stroke-width="1.5"></rect>
+<rect x="108" y="528" width="228" height="34" fill="url(#vent)"></rect>
+<rect x="366" y="524" width="88" height="42" rx="5" fill="#07090B" stroke="#2E343D"></rect>
+<rect x="370" y="528" width="80" height="34" rx="3" fill="url(#screen)"></rect>
+<rect x="376" y="535" width="38" height="3" rx="1.5" fill="#D8F1FF" opacity="0.8"></rect>
+<rect x="376" y="543" width="56" height="3" rx="1.5" fill="#D8F1FF" opacity="0.5"></rect>
+<rect x="376" y="551" width="28" height="3" rx="1.5" fill="#FF7A3D"></rect>
+<rect x="92" y="580" width="32" height="12" rx="3" fill="#07090B"></rect>
+<rect x="436" y="580" width="32" height="12" rx="3" fill="#07090B"></rect>
+</svg>
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 28px;">
+<div style="display: flex; flex-direction: column; gap: 6px;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 14px; letter-spacing: 0.14em; text-transform: uppercase; color: #8C96A3;">All-in, LDO Trident R2 300</span>
+<span style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 104px; line-height: 1; letter-spacing: -0.04em; color: #FF7A3D;">$1.6–1.9K</span>
+<span style="font-size: 19px; line-height: 1.5; color: #A3ACB8;">Kit, printed parts, a few upgrades and CA sales tax. A V2.4 350 lands around <strong style="color: #ECEEF1; font-weight: 600;">$1.7–2.1K</strong>.</span>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+<span style="padding: 8px 14px; border: 1px solid #2E343D; border-radius: 999px; font-family: 'JetBrains Mono', monospace; font-size: 14px; color: #CDD3DA;">CoreXY</span>
+<span style="padding: 8px 14px; border: 1px solid #2E343D; border-radius: 999px; font-family: 'JetBrains Mono', monospace; font-size: 14px; color: #CDD3DA;">Klipper</span>
+<span style="padding: 8px 14px; border: 1px solid #2E343D; border-radius: 999px; font-family: 'JetBrains Mono', monospace; font-size: 14px; color: #CDD3DA;">Enclosed</span>
+<span style="padding: 8px 14px; border: 1px solid #2E343D; border-radius: 999px; font-family: 'JetBrains Mono', monospace; font-size: 14px; color: #CDD3DA;">Open source</span>
+<span style="padding: 8px 14px; border: 1px solid #2E343D; border-radius: 999px; font-family: 'JetBrains Mono', monospace; font-size: 14px; color: #CDD3DA;">25–30 hr build</span>
+</div>
+<div style="background: #15181D; border: 1px solid #22262D; border-radius: 20px; padding: 24px 26px; display: flex; flex-direction: column; gap: 14px;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 13px; letter-spacing: 0.14em; text-transform: uppercase; color: #8C96A3;">In the LDO Rev D+ kit</span>
+<div style="display: flex; gap: 14px; align-items: baseline;"><span style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #FF7A3D; width: 26px;">01</span><span style="font-size: 17px; line-height: 1.45;"><strong style="font-weight: 600;">Leviathan board</strong> <span style="color: #A3ACB8;">TMC5160 HV on A/B, 48V ready</span></span></div>
+<div style="display: flex; gap: 14px; align-items: baseline;"><span style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #FF7A3D; width: 26px;">02</span><span style="font-size: 17px; line-height: 1.45;"><strong style="font-weight: 600;">Nitehawk SB toolboard</strong> <span style="color: #A3ACB8;">USB, no wire chains</span></span></div>
+<div style="display: flex; gap: 14px; align-items: baseline;"><span style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #FF7A3D; width: 26px;">03</span><span style="font-size: 17px; line-height: 1.45;"><strong style="font-weight: 600;">Revo High Flow + Bondtech IGDA</strong> <span style="color: #A3ACB8;">hotend and extruder</span></span></div>
+<div style="display: flex; gap: 14px; align-items: baseline;"><span style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #FF7A3D; width: 26px;">04</span><span style="font-size: 17px; line-height: 1.45;"><strong style="font-weight: 600;">Raspberry Pi 4B</strong> <span style="color: #A3ACB8;">plus touch screen</span></span></div>
+</div>
+</div>
+</section>
+
+<section style="display: flex; flex-direction: column; gap: 28px;">
+<div style="display: flex; align-items: baseline; gap: 18px;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 16px; color: #FF7A3D;">01</span>
+<h2 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 40px; letter-spacing: -0.02em;">Kit prices</h2>
+<span style="font-size: 17px; color: #8C96A3;">LDO kits, US retail</span>
+</div>
+<div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px;">
+<div style="background: #15181D; border: 1.5px solid #FF7A3D; border-radius: 22px; padding: 28px; display: flex; flex-direction: column; gap: 16px;">
+<div style="display: flex; justify-content: space-between; align-items: center;"><span style="font-size: 18px; font-weight: 600;">Trident R2 300</span><span style="padding: 4px 10px; border-radius: 999px; background: #FF7A3D; color: #0D0F12; font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase;">Newest</span></div>
+<span style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 56px; letter-spacing: -0.03em; line-height: 1;">$1,275</span>
+<div style="height: 6px; border-radius: 3px; background: #22262D;"><div style="width: 91%; height: 6px; border-radius: 3px; background: #FF7A3D;"></div></div>
+<span style="font-size: 15px; line-height: 1.5; color: #A3ACB8;">Motion system refresh released mid 2026. 250mm version $1,199.</span>
+</div>
+<div style="background: #15181D; border: 1px solid #22262D; border-radius: 22px; padding: 28px; display: flex; flex-direction: column; gap: 16px;">
+<div style="display: flex; justify-content: space-between; align-items: center;"><span style="font-size: 18px; font-weight: 600;">V2.4 R2 300</span><span style="padding: 4px 10px; border-radius: 999px; border: 1px solid #2E343D; color: #A3ACB8; font-family: 'JetBrains Mono', monospace; font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase;">In stock</span></div>
+<span style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 56px; letter-spacing: -0.03em; line-height: 1;">$1,300</span>
+<div style="height: 6px; border-radius: 3px; background: #22262D;"><div style="width: 93%; height: 6px; border-radius: 3px; background: #6E7886;"></div></div>
+<span style="font-size: 15px; line-height: 1.5; color: #A3ACB8;">Flying gantry, quad gantry leveling. Design last revised in 2022.</span>
+</div>
+<div style="background: #15181D; border: 1px solid #22262D; border-radius: 22px; padding: 28px; display: flex; flex-direction: column; gap: 16px;">
+<div style="display: flex; justify-content: space-between; align-items: center;"><span style="font-size: 18px; font-weight: 600;">V2.4 R2 350</span><span style="padding: 4px 10px; border-radius: 999px; border: 1px solid #2E343D; color: #A3ACB8; font-family: 'JetBrains Mono', monospace; font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase;">Spotty</span></div>
+<span style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 56px; letter-spacing: -0.03em; line-height: 1;">$1,400</span>
+<div style="height: 6px; border-radius: 3px; background: #22262D;"><div style="width: 100%; height: 6px; border-radius: 3px; background: #6E7886;"></div></div>
+<span style="font-size: 15px; line-height: 1.5; color: #A3ACB8;">The big one. In stock at West3D, sold out at Fabreeko.</span>
+</div>
+</div>
+</section>
+
+<section style="display: flex; flex-direction: column; gap: 28px;">
+<div style="display: flex; align-items: baseline; gap: 18px;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 16px; color: #FF7A3D;">02</span>
+<h2 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 40px; letter-spacing: -0.02em;">Where the money goes</h2>
+<span style="font-size: 17px; color: #8C96A3;">Trident R2 300, midpoint estimate</span>
+</div>
+<div style="background: #15181D; border: 1px solid #22262D; border-radius: 22px; padding: 32px; display: flex; flex-direction: column; gap: 26px;">
+<div style="display: flex; height: 56px; border-radius: 12px; overflow: hidden; gap: 3px;">
+<div style="width: 67%; background: #FF7A3D; display: flex; align-items: center; padding-left: 18px; color: #0D0F12; font-family: 'JetBrains Mono', monospace; font-size: 15px; font-weight: 600;">KIT</div>
+<div style="width: 9%; background: #6CCBFF;"></div>
+<div style="width: 9%; background: #5B6573;"></div>
+<div style="width: 15%; background: repeating-linear-gradient(135deg, #2A2F37 0px, #2A2F37 6px, #1B1F25 6px, #1B1F25 12px);"></div>
+</div>
+<div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 20px;">
+<div style="display: flex; flex-direction: column; gap: 6px;"><div style="display: flex; align-items: center; gap: 10px;"><span style="width: 12px; height: 12px; border-radius: 3px; background: #FF7A3D;"></span><span style="font-size: 15px; color: #A3ACB8;">LDO kit</span></div><span style="font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 28px;">$1,275</span></div>
+<div style="display: flex; flex-direction: column; gap: 6px;"><div style="display: flex; align-items: center; gap: 10px;"><span style="width: 12px; height: 12px; border-radius: 3px; background: #6CCBFF;"></span><span style="font-size: 15px; color: #A3ACB8;">Printed parts (PIF)</span></div><span style="font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 28px;">$140–180</span></div>
+<div style="display: flex; flex-direction: column; gap: 6px;"><div style="display: flex; align-items: center; gap: 10px;"><span style="width: 12px; height: 12px; border-radius: 3px; background: #5B6573;"></span><span style="font-size: 15px; color: #A3ACB8;">Nozzle + eddy probe</span></div><span style="font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 28px;">$100–250</span></div>
+<div style="display: flex; flex-direction: column; gap: 6px;"><div style="display: flex; align-items: center; gap: 10px;"><span style="width: 12px; height: 12px; border-radius: 3px; background: repeating-linear-gradient(135deg, #4A515C 0px, #4A515C 3px, #1B1F25 3px, #1B1F25 6px);"></span><span style="font-size: 15px; color: #A3ACB8;">CA sales tax</span></div><span style="font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 28px;">The rest</span></div>
+</div>
+</div>
+</section>
+
+<section style="display: flex; flex-direction: column; gap: 28px;">
+<div style="display: flex; align-items: baseline; gap: 18px;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 16px; color: #FF7A3D;">03</span>
+<h2 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 40px; letter-spacing: -0.02em;">Is anything better?</h2>
+<span style="font-size: 17px; color: #8C96A3;">Not clearly. Just different tradeoffs.</span>
+</div>
+<div style="display: grid; grid-template-columns: 200px repeat(3, minmax(0, 1fr)); border: 1px solid #22262D; border-radius: 22px; overflow: hidden; background: #111418;">
+<div style="padding: 24px; border-bottom: 1px solid #22262D;"></div>
+<div style="padding: 24px; border-bottom: 1px solid #22262D; background: #1A1612; display: flex; flex-direction: column; gap: 6px;"><span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: #FF7A3D;">The pick</span><span style="font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 24px;">Voron Trident R2</span></div>
+<div style="padding: 24px; border-bottom: 1px solid #22262D; display: flex; flex-direction: column; gap: 6px;"><span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: #8C96A3;">Go big</span><span style="font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 24px;">Rat Rig V-Core 4.1</span></div>
+<div style="padding: 24px; border-bottom: 1px solid #22262D; display: flex; flex-direction: column; gap: 6px;"><span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: #8C96A3;">Less fuss</span><span style="font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 24px;">Prusa CORE One+ kit</span></div>
+
+<div style="padding: 20px 24px; border-bottom: 1px solid #1E2228; font-family: 'JetBrains Mono', monospace; font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; color: #8C96A3;">Kit price</div>
+<div style="padding: 20px 24px; border-bottom: 1px solid #1E2228; background: #1A1612; font-size: 18px; font-weight: 600;">$1,275</div>
+<div style="padding: 20px 24px; border-bottom: 1px solid #1E2228; font-size: 18px; font-weight: 600;">from €971</div>
+<div style="padding: 20px 24px; border-bottom: 1px solid #1E2228; font-size: 18px; font-weight: 600;">$1,149</div>
+
+<div style="padding: 20px 24px; border-bottom: 1px solid #1E2228; font-family: 'JetBrains Mono', monospace; font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; color: #8C96A3;">Size</div>
+<div style="padding: 20px 24px; border-bottom: 1px solid #1E2228; background: #1A1612; font-size: 16px; line-height: 1.5; color: #CDD3DA;">300mm bed, compact chamber</div>
+<div style="padding: 20px 24px; border-bottom: 1px solid #1E2228; font-size: 16px; line-height: 1.5; color: #CDD3DA;">500mm only now, 300/400 dropped</div>
+<div style="padding: 20px 24px; border-bottom: 1px solid #1E2228; font-size: 16px; line-height: 1.5; color: #CDD3DA;">250×220×270mm</div>
+
+<div style="padding: 20px 24px; border-bottom: 1px solid #1E2228; font-family: 'JetBrains Mono', monospace; font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; color: #8C96A3;">Eng. materials</div>
+<div style="padding: 20px 24px; border-bottom: 1px solid #1E2228; background: #1A1612; font-size: 16px; line-height: 1.5; color: #CDD3DA;">Small chamber heats fast for ABS, ASA, PA-CF</div>
+<div style="padding: 20px 24px; border-bottom: 1px solid #1E2228; font-size: 16px; line-height: 1.5; color: #CDD3DA;">Panels not included, big cube is hard to keep hot</div>
+<div style="padding: 20px 24px; border-bottom: 1px solid #1E2228; font-size: 16px; line-height: 1.5; color: #CDD3DA;">Active chamber control, but hotend tops out at 290°C</div>
+
+<div style="padding: 20px 24px; font-family: 'JetBrains Mono', monospace; font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; color: #8C96A3;">Build effort</div>
+<div style="padding: 20px 24px; background: #1A1612; font-size: 16px; line-height: 1.5; color: #CDD3DA;">25–30 hrs plus Klipper tuning</div>
+<div style="padding: 20px 24px; font-size: 16px; line-height: 1.5; color: #CDD3DA;">Full kit build, Hybrid and IDEX upgrade path</div>
+<div style="padding: 20px 24px; font-size: 16px; line-height: 1.5; color: #CDD3DA;">Guided semi-DIY, made in Delaware</div>
+</div>
+</section>
+
+<section style="display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 24px;">
+<div style="grid-column: span 8; background: #FF7A3D; color: #0D0F12; border-radius: 26px; padding: 40px 44px; display: flex; flex-direction: column; gap: 16px;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 14px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase;">Verdict</span>
+<span style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 46px; line-height: 1.05; letter-spacing: -0.02em;">Build the LDO Trident R2 300.</span>
+<span style="font-size: 19px; line-height: 1.5;">Newest official Voron, simpler than the V2.4, and the smaller chamber is better for engineering filaments. Go V2.4 350 only if you need the bed.</span>
+</div>
+<div style="grid-column: span 4; background: #15181D; border: 1px solid #22262D; border-radius: 26px; padding: 36px 32px; display: flex; flex-direction: column; gap: 14px;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 13px; letter-spacing: 0.14em; text-transform: uppercase; color: #8C96A3;">The tradeoff</span>
+<span style="font-size: 18px; line-height: 1.55; color: #CDD3DA;">A weekend of building and tuning, in exchange for an open, repairable, cloud-free machine you can push harder.</span>
+</div>
+</section>
+
+<section style="display: flex; gap: 20px; align-items: flex-start; padding: 26px 30px; border: 1px dashed #2E343D; border-radius: 20px;">
+<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#FFB020" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex-shrink: 0; margin-top: 2px;"><path d="M12 3 L22 20 L2 20 Z"></path><line x1="12" y1="10" x2="12" y2="14"></line><circle cx="12" cy="17" r="0.6" fill="#FFB020"></circle></svg>
+<span style="font-size: 17px; line-height: 1.55; color: #CDD3DA;"><strong style="color: #ECEEF1; font-weight: 600;">Out of reach for all three:</strong> PEEK and PEI/Ultem. Those need roughly 400°C+ hotends and a much hotter chamber, a different class of machine.</span>
+</section>
+
+<footer style="margin-top: auto; display: flex; justify-content: space-between; gap: 32px; padding-top: 24px; border-top: 1px solid #22262D; font-family: 'JetBrains Mono', monospace; font-size: 13px; line-height: 1.6; color: #8C96A3;">
+<span>Sources: West3D, Fabreeko, Rat Rig, Printed Solid, Voron Design. Retail prices as of Oct 23, 2026.</span>
+<span style="text-align: right; flex-shrink: 0;">Stock changes constantly. Verify before ordering.</span>
+</footer>
+</div>
+</body>
+</html>

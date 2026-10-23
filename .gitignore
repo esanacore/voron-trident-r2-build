@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+Thumbs.db
+# Klipper/Moonraker secrets never belong in the repo
+config/moonraker.secrets
+config/*.secrets
