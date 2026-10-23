@@ -6,6 +6,7 @@ This repo follows [Eric's Engineering Constitution](https://github.com/esanacore
 - Every price needs a source link and the check date in docs/COST_BREAKDOWN.md. Never state a price from memory.
 - Record platform or major part decisions as ADRs in docs/adr/ using the constitution's ADR template.
 - After editing docs/infographic/voron-build-cost-2026.html, run `scripts/render_infographic.py` and commit the new PNG with it.
+- Any change to the chamber heater design must keep docs/CHAMBER_HEATER.md requirements and verification results in sync. Never weaken a safety requirement without a new ADR.
 - Run `bash scripts/check_docs.sh` before committing.
 - No em dashes in prose. Keep writing plain and casual.
 - Never commit secrets (Moonraker API keys, Wi-Fi passwords, printer IPs exposed to the internet).

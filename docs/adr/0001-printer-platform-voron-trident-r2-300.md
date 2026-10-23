@@ -1,6 +1,6 @@
 # ADR: Printer Platform, LDO Voron Trident R2 300
 
-Status: Proposed
+Status: Superseded
 
 Date: 2026-10-23
 
@@ -9,11 +9,7 @@ Date: 2026-10-23
 - Extends: none
 - Supersedes: none
 - Related: [docs/COST_BREAKDOWN.md](../COST_BREAKDOWN.md)
-
-## Promotion Criteria
-
-- Prices and stock re-checked within a week of ordering, with COST_BREAKDOWN.md updated.
-- Kit ordered. Eric gates the move to Accepted.
+- Superseded by: [ADR-0002](0002-printer-platform-voron-2-4-r2-350.md), same day, after deciding on a 350mm build with an active chamber heater.
 
 ## Context
 

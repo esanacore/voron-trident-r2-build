@@ -9,7 +9,7 @@ fail=0
 required=(
   README.md CHANGELOG.md TODO.md AGENTS.md LICENSE
   .github/SECURITY.md docs/HELP.md wiki/Home.md
-  docs/COST_BREAKDOWN.md
+  docs/COST_BREAKDOWN.md docs/CHAMBER_HEATER.md
   docs/infographic/voron-build-cost-2026.html
   docs/infographic/voron-build-cost-2026.png
 )

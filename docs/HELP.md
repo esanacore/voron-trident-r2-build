@@ -5,6 +5,7 @@
 - **README.md**: overview and the featured infographic.
 - **docs/COST_BREAKDOWN.md**: every price, its source and the check date.
 - **docs/adr/**: decisions, one file per decision, numbered.
+- **docs/CHAMBER_HEATER.md**: chamber heater safety requirements and the tests that prove them.
 - **docs/infographic/**: the infographic as editable HTML plus the rendered PNG.
 - **TODO.md**: build phases.
 - **config/** (later): Klipper and Moonraker config from the finished printer.
